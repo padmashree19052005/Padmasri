@@ -1,0 +1,22 @@
+----- First 5 rows -----
+   gender  SeniorCitizen  Partner  ...  MonthlyCharges  TotalCharges  Churn
+0  Female              0     Yes  ...           29.85         29.85     No
+1    Male              0      No  ...           56.95       1889.50     No
+...
+
+----- Accuracy -----
+Accuracy: 0.8034
+
+----- Confusion Matrix -----
+[[936 101]
+ [151 221]]
+
+----- Classification Report -----
+              precision    recall  f1-score   support
+
+           0       0.86      0.90      0.88      1037
+           1       0.69      0.59      0.64       372
+
+    accuracy                           0.80      1409
+   macro avg       0.77      0.75      0.76      1409
+weighted avg       0.80      0.80      0.80      1409
